@@ -31,7 +31,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.volte_enalbed_by_hw=1 \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1 \
-    persist.dbg.wfc_avail_ovr=1
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.data.iwlan.enable=true
 
 # libshims
 PRODUCT_PACKAGES += \
